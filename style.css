@@ -1,0 +1,23 @@
+.hero-content.mx-auto.flex.items-center{
+    margin-top:-10px;
+}
+.hero-image{
+    width:300px;
+    height:300px;
+}
+.loading{
+    height:400px;
+    width:400px;
+    margin-top:-550px;
+   /* border:1px solid red; */
+}
+.image-div{
+    height:300px;
+    width:400px;
+    margin:auto;
+    margin-top:-90px;
+}
+.saved-ideas{
+    height: 50px;
+    width:50px;
+}

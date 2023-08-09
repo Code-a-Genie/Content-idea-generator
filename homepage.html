@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Idea Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Include DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.8.1/dist/full.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="bg-gray-800 p-4 fixed top-0 w-full">
+      <nav class="flex items-center justify-between">
+        <div class="text-white font-semibold text-lg">Genie</div>
+        <ul class="flex space-x-4">
+          <li>
+            <a href="#" class="text-white hover:text-gray-300">Login</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-gray-300">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- body -->
+
+    <div
+      class="hero min-h-screen bg-base-200 flex items-center justify-center mx-4"
+    >
+      <div class="hero-content mx-auto flex items-center">
+        <div>
+          <h1 class="text-5xl font-bold">Genie</h1>
+          <p class="py-6 text-3xl">
+            <i>A stream of content ideas for all your marketing needs</i>
+          </p>
+          <!-- <button class="btn btn-warning">Get Started</button> -->
+          <button class="bg-yellow-500 hover:bg-yellow-600 rounded-full p-3">
+            Get Started
+          </button>
+        </div>
+        <div class="hero-image ml-6">
+          <img src="./project_idea_bulb-removebg.png" />
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-gray-800 text-white p-4 h-50">
+      <div class="container mx-auto flex justify-between items-center">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

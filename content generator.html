@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Idea Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- tailwind -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Include DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.8.1/dist/full.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+<body>
+    <!-- log out/idea board -->
+       <header class="bg-gray-800 p-4  w-full">
+      <nav class="flex items-center justify-between">
+        <div class="text-white font-semibold text-lg">Genie</div>
+        <ul class="flex space-x-4">
+          <li>
+            <a href="#" class="text-white hover:text-gray-300">Log out</a>
+          </li>
+          <li>
+            <a href="#" class="text-white hover:text-gray-300">Saved ideas</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+      <!-- form -->
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <div class="space-y-6" action="#" method="POST">
+            <!-- topic -->
+            <div>
+              <label for="text" class="block text-sm font-medium leading-6 text-gray-900">Topic</label>
+              <div class="mt-2">
+                <input id="text" name="text" type="text" autocomplete="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+              </div>
+            </div>
+      <!-- industry -->
+            <div class="mt-4">
+                <label for="industry" class="block text-sm font-medium text-gray-900">Industry</label>
+                <select id="industry" name="industry" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    <option value="" disabled selected>Select an industry</option>
+                    <option value="it">Information Technology</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="finance">Finance</option>
+                    <option value="blockchain-crypto">Blockchain/Crypto</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="e-commerce">E-commerce</option>
+                    
+                </select>
+            </div>
+            
+
+            <!-- specific keyword -->
+            <div>
+                <div class="flex items-center justify-between">
+                  <label for="text" class="block text-sm font-medium leading-6 text-gray-900">Specific Keyword</label>
+                 
+                </div>
+                <div class="mt-2">
+                    <input id="text" name="text" type="text" autocomplete="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+             
+              
+                 <!-- type of content -->
+                 <div class="mt-4">
+                    <label for="industry" class="block text-sm font-medium text-gray-900">Type of content</label>
+                    <select id="industry" name="industry" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        <option value="" disabled selected>Select Content Type</option>
+                        <option value="blog">Blog</option>
+                        <option value="Video">Video</option>
+                        <option value="sm">Social Media</option>
+                        <option value="landing-page">Landing Page</option>
+                        <!-- Add more industry options as needed -->
+                    </select>
+                </div>
+                 <!--goal/objective -->
+              <div>
+                <div class="flex items-center justify-between">
+                  <label for="text" class="block text-sm font-medium leading-6 text-gray-900">Goal/Objective</label>
+                 
+                </div>
+                <div class="mt-2">
+                    <input id="text" name="text" type="text" autocomplete="text" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                </div>
+              </div>
+              
+            <div>
+              <button type="submit" class="flex w-full justify-center rounded-md bg-gray-800 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-yellow-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Generate idea</button>
+            </div>
+            <div class="flex items-center justify-center h-screen image-div"> 
+              <!-- <div class="loading"> -->
+                <img class="loading" src="./Daily-UI-76-Loading-1--unscreen.gif" alt="">
+            </div>
+            </div>
+            
+        </div>
+          </form>
+        </div>
+      </div>
+</body>
