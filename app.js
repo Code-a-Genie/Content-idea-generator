@@ -32,8 +32,19 @@ const signInReturningUser =document.getElementById('signInReturningUser').addEve
 const notRegisteredYet =document.getElementById('notRegisteredYet').addEventListener('click',goToSignUpPage)
 
 // Content generator
+const logout = document.getElementById('notRegisteredYet').addEventListener('click',goToLoginPage)
 
+const savedIdeas = document.getElementById('savedIdeas').addEventListener('click',redirectToSavedIdeas)
 
+const topic = document.getElementById('topic').addEventListener('input',processTopic)
+
+const selectIndustry = document.getElementById('industry').addEventListener('change',runIndustrySelection) 
+
+const keyword = document.getElementById('keyword').addEventListener('input',processKeyword) 
+
+const typeOfContent = document.getElementById('typeOfContent').addEventListener('change',typeOfContent) 
+
+const goal = document.getElementById('goal').addEventListener('input',processGoal)
 
 
 
