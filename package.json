@@ -1,0 +1,31 @@
+{
+  "name": "content-idea-generator",
+  "version": "1.0.0",
+  "description": "Content Idea Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-a-Genie/Content-idea-generator.git"
+  },
+  "keywords": [
+    "Content",
+    "ideas",
+    "Creative",
+    "writing",
+    "Brainstorming",
+    "Content",
+    "generation",
+    "Content",
+    "idea",
+    "generator"
+  ],
+  "author": "Ginikachukwu Nwibe nwibeg@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-a-Genie/Content-idea-generator/issues"
+  },
+  "homepage": "https://github.com/Code-a-Genie/Content-idea-generator#readme"
+}
