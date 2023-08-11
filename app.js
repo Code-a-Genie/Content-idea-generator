@@ -46,6 +46,11 @@ const typeOfContent = document.getElementById('typeOfContent').addEventListener(
 
 const goal = document.getElementById('goal').addEventListener('input',processGoal)
 
+const generateIdea = document.getElementById('generateIdea').addEventListener('click',generateIdea)
+
+const loader = document.getElementById('loader')
+
+// Generated content
 
 
 
