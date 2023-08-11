@@ -46,11 +46,25 @@ const typeOfContent = document.getElementById('typeOfContent').addEventListener(
 
 const goal = document.getElementById('goal').addEventListener('input',processGoal)
 
-const generateIdea = document.getElementById('generateIdea').addEventListener('click',generateIdea)
+const contentIdeaGenerator = document.getElementById('contentGenerator').addEventListener('click',runGenerator)
 
 const loader = document.getElementById('loader')
 
 // Generated content
+const generatedIdeas = document.getElementById('generatedIdeas').addEventListener('input',collectGeneratedIdeas)
+
+const saveIdeaToBoard = document.getElementById('saveIdea').addEventListener('click' ,saveIdea )
+
+const newIdea = document.getElementById('newIdea').addEventListener('click' ,createNewIdea )
+
+const newTopic = document.getElementById('newTopic').addEventListener('click' ,createNewTopic)
+
+// saved ideas
+const saveGeneratedIdeas = document.getElementById('saveGeneratedIdeas').addEventListener('click' ,createIdeaBoard)
+
+// Writing functions
+
+
 
 
 

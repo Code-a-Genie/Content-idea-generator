@@ -14,7 +14,8 @@
     <!-- Include DaisyUI CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@1.8.1/dist/full.css"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -22,7 +23,7 @@
     />
   </head>
   <body>
-    <header class="bg-gray-800 p-4  w-full">
+    <header class="bg-gray-800 p-4 w-full">
       <nav class="flex items-center justify-between">
         <div class="text-white font-semibold text-lg">Genie</div>
         <ul class="flex space-x-4">
@@ -37,47 +38,47 @@
     </header>
 
     <div class="mx-auto items-center">
-
-    <h2 class="text-4xl text-lg text-center text-gray-800 mt-8">Here are some ideas for you!</h2>
-
+      <h2 class="text-4xl text-lg text-center text-gray-800 mt-8">
+        Here are some ideas for you!
+      </h2>
     </div>
 
-    <!-- <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-xs mx-auto " ></textarea> -->
-    <!-- <div class="text-box">
-    <textarea placeholder="Bio" class="textarea textarea-bordered textarea-lg w-full max-w-2xl mx-auto border-gray-500" style="border-width: 2px;"></textarea>
-  </div> -->
+    <!-- text area -->
+    <div class="text-area">
+      <input class="text-area-child" id="generatedIdeas" />
+    </div>
 
-  <div class="flex justify-center items-center  mt-20 border-gray-800">
-    <div  class="container border-gray-800 textarea-bordered textarea-lg w-full max-w-2xl border-gray-500 border-2 h-80"></div>
-  </div>
-
-  <!-- <div class=" container flex justify-center items-center  mt-20 border-gray-800">
-<a href="#" class="text-red hover:text-gray-400">
-            <img src="./saved_ideas-removebg-preview.png">
-            Save to idea board
-          </a>
-  </div> -->
-
-  <div class="container flex justify-center items-center mt-20 border-gray-800">
-    <div>
-    <a href="#" class="flex items-center text-red hover:text-gray-400">
-      <img src="./saved_ideas-removebg-preview.png" class="h-10 w-10 ml-2">
-      <p class="font-bold text-gray-800 mr-6">Save to idea board</p>
-    </a>
-  </div>
-  <div>
-    <a href="#" class="flex items-center text-red hover:text-gray-400">
-      <img src="https://i.pinimg.com/564x/e0/35/1c/e0351ca0b460534eff2019c42a854a45.jpg" class="h-10 w-10 ml-2">
-      <p class="font-bold text-gray-800 mr-6">Generate New Idea</p>
-    </a>
-  </div>
-  <div>
-    <a href="#" class="flex items-center text-red hover:text-gray-400">
-      <img src="https://i.pinimg.com/236x/be/02/39/be02395353cb9b146e2c6755436bca27.jpg" class="h-10 w-10 ml-2">
-      <p class="font-bold text-gray-800"> Enter New Topic</p>
-    </a>
-  </div>
-  </div>
-  
-  
+    <!-- below text box -->
+    <div
+      class="container flex justify-center items-center mt-20 border-gray-800"
+    >
+      <div>
+        <a href="#" class="flex items-center text-red hover:text-gray-400" id="saveIdea">
+          <img
+            src="./saved_ideas-removebg-preview.png"
+            class="h-10 w-10 ml-2"
+          />
+          <p class="font-bold text-gray-800 mr-6">Save to idea board</p>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="flex items-center text-red hover:text-gray-400 " id="newIdea">
+          <img
+            src="https://i.pinimg.com/564x/e0/35/1c/e0351ca0b460534eff2019c42a854a45.jpg"
+            class="h-10 w-10 ml-2"
+          />
+          <p class="font-bold text-gray-800 mr-6">Generate New Idea</p>
+        </a>
+      </div>
+      <div>
+        <a href="#" class="flex items-center text-red hover:text-gray-400" id="newTopic">
+          <img
+            src="https://i.pinimg.com/236x/be/02/39/be02395353cb9b146e2c6755436bca27.jpg"
+            class="h-10 w-10 ml-2"
+          />
+          <p class="font-bold text-gray-800">Enter New Topic</p>
+        </a>
+      </div>
+    </div>
   </body>
+</html>
